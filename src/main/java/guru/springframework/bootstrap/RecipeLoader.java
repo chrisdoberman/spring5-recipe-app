@@ -96,7 +96,7 @@ public class RecipeLoader implements ApplicationListener<ContextRefreshedEvent> 
                 "Wrap warmed tortillas in a tea towel to keep them warm until serving.\n" +
                 "5 Assemble the tacos: Slice the chicken into strips. On each tortilla, place a small handful of arugula. Top with chicken slices, sliced avocado, radishes, tomatoes, and onion slices. Drizzle with the thinned sour cream. Serve with lime wedges.");
 
-        spicyTacos.setDifficulty(Difficulty.EASY);
+        spicyTacos.setDifficulty(Difficulty.MODERATE);
 
         Notes stNotes = new Notes();
         stNotes.setRecipeNotes("Look for ancho chile powder with the Mexican ingredients at your grocery store, on buy it online. (If you can't find ancho chili powder, you replace the ancho chili, the oregano, and the cumin with 2 1/2 tablespoons regular chili powder, though the flavor won't be quite the same.)");
