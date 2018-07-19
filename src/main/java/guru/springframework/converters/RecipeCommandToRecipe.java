@@ -24,7 +24,7 @@ public class RecipeCommandToRecipe implements Converter<RecipeCommand, Recipe> {
         this.notesConverter = notesConverter;
     }
 
-    @Synchronized
+    @Synchronized // needed because spring converters are not thread safe
     @Nullable
     @Override
     public Recipe convert(RecipeCommand source) {
