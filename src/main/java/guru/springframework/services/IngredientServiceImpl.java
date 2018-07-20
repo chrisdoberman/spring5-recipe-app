@@ -13,9 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
-/**
- * Created by jt on 6/28/17.
- */
 @Slf4j
 @Service
 public class IngredientServiceImpl implements IngredientService {

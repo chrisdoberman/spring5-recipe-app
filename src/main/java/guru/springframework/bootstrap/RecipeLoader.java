@@ -134,7 +134,7 @@ public class RecipeLoader implements ApplicationListener<ContextRefreshedEvent> 
 
     private Ingredient createIngredient(double amount, String description, String unitOfMeasure) {
         UnitOfMeasure uom = this.unitOfMeasureRepository.findByDescription(unitOfMeasure).get();
-        Ingredient ingredient = new Ingredient(BigDecimal.valueOf(amount), description, uom);
+        Ingredient ingredient = new Ingredient(description, BigDecimal.valueOf(amount), uom);
 
         return ingredient;
     }
